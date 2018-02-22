@@ -1,0 +1,80 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: calc(100% - 4.2rem);
+  height: 14rem;
+  margin: 1rem;
+  border: 0.1rem solid #FFF176;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.content div {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.5rem;
+  color: #4DD0E1;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content .notification {
+  color: #FFD54F;
+}
+
+.input {
+  display: flex;
+  flex-flow: nowrap row;
+  margin: 0 1rem 1rem 1rem;
+  width: calc(100% - 2rem);
+  height: 2rem;
+}
+
+input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  padding: 0 0 0 0.5rem;
+  color: #42a5f5;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 20%;
+  height: 100%;
+  border: none;
+  padding: 0;
+  outline: none;
+  background: #42a5f5;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #2196F3;
+  cursor: pointer;
+}
+
+button:active {
+  background: #1E88E5;
+  transform: translateY(3px);
+}
